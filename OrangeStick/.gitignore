@@ -10,10 +10,14 @@
 *Assets/Presets/
 *Assets/TutorialInfo/
 
+# Ignore this folder
+*tripolygon
+
 # Ignore all files with these extensions
 *.meta
 *.asset
 *.mat
+*.prefab
 
 # Git meta files
 !.gitignore
@@ -21,7 +25,3 @@
 
 # Whitelisted directories/files
 !/Assets/
-
-#################################################################################
-# NOTE: See "Assets" folder for a .gitignore for sub directories in Assets
-#################################################################################
